@@ -1,0 +1,36 @@
+pragma solidity ^0.8.0;
+
+contract tech4dev{
+
+    keccak256(abi.encodpacked("tumie"));
+
+
+        //declare an event
+        event maths(uint a, uint b, uint result);
+
+        //function declaration
+        function add(uint _ a, uint _b) public return(uint){
+
+          //emit maths  
+            uint result = _a + _b;
+            emit maths(_a, _b, result);
+            return result;
+
+            //require statement
+
+            function tumisang(string memory _name) public return(string memory){
+      require(keccak256(abi.encodpacked(_name)) == keccak256(abi.encodpacked("tumisang")));
+   
+   function swabi(string memory _name) public return (string memory){
+     require(keccak256(abi.encodpacked(_name))== keccak256(abi.encodpacked("swabi")));
+
+     function lebogang(string memory _name) public return(string memory){
+       require(keccak256(abi.encodpacked(_name)) != keccak256(abi.encodpacked("lebogang")));
+
+             } 
+         }
+        }
+    }
+}
+
+    
